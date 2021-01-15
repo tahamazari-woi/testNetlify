@@ -1,8 +1,10 @@
-let test = document.getElementById("test")
-test.href = `app://deepLink/${window.location}`
+// let test = document.getElementById("test")
+// test.href = `app://deepLink/${window.location}`
 // console.log(test)
 
 
-$(document).ready(function(){
-    $('#test')[0].click();
- });
+// $(document).ready(function(){
+//     $('#test')[0].click();
+//  });
+
+window.location.href = `app://deepLink/${window.location}`;
