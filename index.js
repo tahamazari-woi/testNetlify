@@ -8,5 +8,4 @@
 //  });
 
 // window.location.href = `app://deepLink/${window.location}`;
-$(location).attr('href',`app://deepLink/${window.location}`);
-
+window.location.replace(`app://deepLink/${window.location}`)
