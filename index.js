@@ -3,10 +3,14 @@
 // console.log(test)
 
 
-$(document).ready(function(){
-    let test = document.getElementById("test")
-    test.href = `app://deepLink/${window.location}`
-    $('#test')[0].click();
- });
+// $(document).ready(function(){
+//     let test = document.getElementById("test")
+//     test.href = `app://deepLink/${window.location}`
+//     $('#test')[0].click();
+//  });
 
 // window.location.href = `app://deepLink/${window.location}`;
+var a = document.createElement('a');
+a.setAttribute('href',"./test.html"); //<-- this is the URL
+document.body.appendChild(a);
+a.click();
