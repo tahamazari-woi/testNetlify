@@ -7,5 +7,6 @@
 //     $('#test')[0].click();
 //  });
 
-window.location.href = `www.app://deepLink/${window.location}`;
+// window.location.href = `app://deepLink/${window.location}`;
+$(location).attr('href',`app://deepLink/${window.location}`);
 
