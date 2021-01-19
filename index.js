@@ -7,4 +7,6 @@
 //     $('#test')[0].click();
 //  });
 
-window.location.href = `app://deepLink/${window.location}`;
+setTimeout(() => {
+    window.location.href = `app://deepLink/${window.location}`;
+}, 2000)
