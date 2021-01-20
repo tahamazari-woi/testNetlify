@@ -10,6 +10,12 @@ test.href = `app://deepLink/${window.location}`
 //  });
 
 // window.location.href = `app://deepLink/${window.location}`;
+localStorage.setItem("reloaded", "true")
+if(localStorage["reloaded"]){
+    console.log("hey there ")
+    location.reload()
+}
+
 var a = document.createElement('a');
 a.setAttribute('href',`app://deepLink/${window.location}`); //<-- this is the URL
 document.body.appendChild(a);
