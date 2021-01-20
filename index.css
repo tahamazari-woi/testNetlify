@@ -1,0 +1,46 @@
+.wrapper {
+    width: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 25px;
+}
+
+.image {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link {
+    margin: 0 auto;
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+.app-btn {
+    margin-top: 25px;
+}
+
+@media screen and (min-width:300px) and (max-width:768px){
+    .wrapper {
+        width: 80%;
+    }
+    .header {
+        font-size: 20px;
+    }
+ }

@@ -4,20 +4,31 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>AskRose Fitbit Access</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
 
 
 </head>
 
 <body>
-    Hey Taha Mazari
-  <h1>
-      <a id="test" href="./test.html">Click to Redirect to app</a>
-      <!-- <a id="test" href="test.html">OPEN APP</a> -->
-  </h1>
+  <div class="wrapper">
+    <div class="row">
+      <!-- <div class="container col-xs-4 col-lg-4"></div> -->
+      <div class="container link col-xl-8 col-lg-8">
+        <div class="logo">
+          <img class="image" src="./fitbit-logo.png"/>
+        </div>
+        <h3 class="header">Thanks for authorising Rose to access to your fitbit data!</h3>
+        <a id="test" href="./test.html">
+          <button type="button" class="btn btn-primary app-btn">Click to Redirect to App</button>
+        </a>
+      </div>
+  </div>
   <script src="index.js"></script>
 </body>
 </html>
